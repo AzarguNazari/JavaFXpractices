@@ -1,0 +1,14 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+
+#myText {
+    -fx-font-size: 50px;
+    -fx-font-family: verdana;
+    -fx-fill: lightsalmon;
+    -fx-stroke-width: 2;
+    -fx-underline: true;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}

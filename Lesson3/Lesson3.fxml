@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+
+
+<!-- StackPane node on the scene -->
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="Lesson3.Lesson3Controller">
+    
+   <!-- Rectangular shape -->
+    <Rectangle fx:id="rectangle" arcHeight="20" arcWidth="20"
+                fill="lightskyblue" width="400" height="60">
+        <!-- Creating effect which is dropshadow inside -->
+        <effect>
+            <!-- Creating a DropShadow Effect Node -->
+            <DropShadow fx:id="dropshadow" color="GRAY" offsetY="3.0" />
+        </effect>
+    </Rectangle>
+    
+    <!-- Creating a Text Node -->
+    <Text fx:id="text" fill="DARKSLATEGRAY"
+          style="-fx-font-weight:bold; -fx-font-size: 32"
+          effect="$dropshadow"
+          text="Welcome to this fucking envirnoment">
+    </Text>
+</StackPane>
+
