@@ -1,0 +1,15 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+#text{
+    -fx-fill: green;
+    -fx-font-weight: bold;
+    
+}
+
+#button{
+    -fx-fill: #eee;
+    -fx-font-weight: bold;
+    -fx-padding: 50;
+}
