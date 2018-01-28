@@ -1,4 +1,4 @@
-package Lesson7;
+package Lesson8;
 
 import javafx.application.Application;
 import javafx.scene.Group;
