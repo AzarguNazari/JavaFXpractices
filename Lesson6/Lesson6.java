@@ -72,11 +72,11 @@ public class Lesson6 extends Application{
         circle2.setStrokeWidth(strokeWidth);
         
         
-        //root.getChildren().addAll(circle1, circle2);
+        //root.getChildren().addAll(circle1, circle2);  
         
         
         
-        //------------------------ Rectangle Shape ------------
+        //------------------------ Rectangle Shape --------------
        
         int recStroke = 3;
         int arcWidth = 30;
